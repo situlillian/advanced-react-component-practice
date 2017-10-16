@@ -11,19 +11,19 @@
 
 ### Components
 * TopNav (already made)
-* SideNav
-* Comments
-* Tasks
-* Orders
-* Tickets
-* AreaChart
-* DonutChart
-* TasksPanel
-* TransactionsPanel
-* MessagePreview (which is in TopNav)
-* DateTime (which is in MessagePreview)
-* TaskItem (which is in TaskPanel)
-* TransactionRow (which is in TransactionsPanel)
+* SideNav (/)
+* Comments (/)
+* Tasks (/)
+* Orders (/)
+* Tickets (/)
+* AreaChart (/)
+* DonutChart (/)
+* TasksPanel (/)
+* TransactionsPanel (/)
+* MessagePreview (which is in TopNav) (/)
+* DateTime (which is in MessagePreview) (/)
+* TaskItem (which is in TaskPanel) (/)
+* TransactionRow (which is in TransactionsPanel) (/)
 
 ### Import and use components where appropriate
 * This is SOP from checklist.
@@ -63,5 +63,3 @@
 * TasksPanel - map the array of "tasks" into array of TaskItem's. Pass one task into TaskItem
 * TopNav - map the array of "messages" into array of MessagePreview's. Pass one message into MessagePreview
 * TransactionPanel - map the array of "orders" into array of TransactionRow's. Pass one order into TransactionRow
-
-
