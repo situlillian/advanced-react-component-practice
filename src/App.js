@@ -17,13 +17,9 @@ function App(props) {
     <div>
       <div id="wrapper">
         <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          {/*   <TopNav>   */}
-          <TopNav/>
-          {/*   </TopNav>   */}
+          <TopNav />
 
-          {/*   <SideNav>   */}
-          <SideNav/>
-          {/*   </SideNav>   */}
+          <SideNav />
         </nav>
 
         <div id="page-wrapper">
@@ -46,45 +42,30 @@ function App(props) {
             </div>
             <div className="row">
 
-              {/*   </Comments>   */}
-              <Comments/>
-              {/*   </Comments>   */}
+              <Comments />
 
-              {/*   <Tasks>   */}
-              <Tasks/>
-              {/*   </Tasks>   */}
+              <Tasks />
 
-              {/*   <Orders>   */}
-              <Orders/>
-              {/*   </Orders>   */}
+              <Orders />
 
-              {/*   <Tickets>   */}
-              <Tickets/>
-              {/*   </Tickets>   */}
+              <Tickets />
 
             </div>
 
-            {/*   <AreaChart>   */}
-            <AreaChart/>
-            {/*   </AreaChart>   */}
+            <AreaChart />
 
             <div className="row">
 
-              {/*   <DonutChart>   */}
-              <DonutChart/>
-              {/*   </DonutChart>   */}
+              <DonutChart />
 
               <div className="col-lg-4">
-                {/*   <TasksPanel>   */}
-                <TasksPanel/>
-                {/*   </TasksPanel>   */}
+
+                <TasksPanel />
 
               </div>
               <div className="col-lg-4">
 
-                {/*   </TransactionsPanel>   */}
-                <TransactionsPanel/>
-                {/*   </TransactionsPanel>   */}
+                <TransactionsPanel />
 
               </div>
             </div>
@@ -96,6 +77,16 @@ function App(props) {
   );
 }
 
-App.propTypes = {};
+App.propTypes = {
+  dateTime: PropTypes.array.isRequired,
+  newComments: PropTypes.array.isRequired,
+  newTasks: PropTypes.number.isRequired,
+  newOrders: PropTypes.object.isRequired,
+  tickets: PropTypes.object.isRequired,
+  orders: PropTypes.object.isRequired,
+  taskItem: PropTypes.object.isRequired,
+  tasks: PropTypes.object.isRequired,
+  messages: PropTypes.object.isRequired
+};
 
 export default App;

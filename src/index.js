@@ -13,18 +13,18 @@ tickets,
 orders,
 taskItem,
 tasks,
-messages,
+messages
 } = state;
 
 ReactDOM.render(
-  <App 
+  <App
     taskItem={taskItem}
     dateTime={dateTime}
     newComments={newComments}
     newTasks={newTasks}
     newOrders={newOrders}
     tickets={tickets}
-    orders={orders} 
+    orders={orders}
     tasks={tasks}
     messages={messages}
     />,
